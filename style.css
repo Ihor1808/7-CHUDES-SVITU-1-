@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+	padding:0;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear:both;
+}
+div {
+	box-sizing: border-box;
+}
+header {
+	background: url(img/image1.jpg) no-repeat center top/cover;
+	height: 100vh;
+}
+.logo {
+	width: 200px;
+	height: 200px;
+	margin-left: 90px;
+	float:left;
+}
+nav {
+	float:right;
+	margin-top: 80px;
+	margin-right: 100px;
+}
+.menu{
+	padding:0;
+	margin:0;
+}
+.menu li{
+	display: block;
+	float:left;
+}
+.menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: Arial;
+	color: red;
+	margin-left:25px;
+	margin-top: 25px;
+}
+.menu li a:hover {
+	color: #FC5400;
+}
+.menu li a:active {
+
+}
+h1 {
+	font-family: comic sans;
+	font-size: 180px;
+	text-align: center;
+	color: red;
+	margin-top: 130px;
+	text-transform: uppercase;
+}
+.line {
+	margin: 0;
+	background-color: #C0C0C0;
+	width:1901px;
+	height:10px;
+	text-align: center;
+}
+#About {
+	background-color: #DDDDDD;
+	padding: 50px;
+}
+.zago1{
+	font-size: 56px;
+	text-align: center;
+	margin-top:0px;
+	font-family:Arial;
+	color: #ED0000;
+}
+.text1 {
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	margin: 75px 100px 35px 100px;
+}
+.karta {
+	width: 950px;
+	height: 550px;
+	margin-left:390px;
+}
+.rozta {
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+#Tajmah {
+	background: url(img/tajmahal1.jpg) no-repeat center top/cover;
+	height: 100vh;
+	padding: 5px;
+}
+.tajmah {
+	font-size: 140px;
+	text-align: center;
+	margin-top:0px;
+	font-family:Arial;
+	color: #ED0000;
+}
+.text2 {
+	margin: 440px 400px 0px 400px;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+}
+.line1 {	
+	margin: 0;
+	background-color: #000;
+	width:1901px;
+	height:10px;
+	text-align: center;
+}
+#Chichen {
+	background: url(img/chicheniza4.jpg) no-repeat center top/cover;
+	height: 100vh;
+	padding: 5px;
+}
+.chichen {
+	font-size: 140px;
+	text-align: center;
+	margin-top:0px;
+	font-family:Arial;
+	color: #ED0000;
+}
+.text3 {
+	margin: 190px 300px 0px 300px;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+}
+.kolizey {
+	font-size: 140px;
+	text-align: center;
+	margin-top:0px;
+	font-family:Arial;
+	color: #ED0000;
+}
+.text4 {
+	margin: 190px 100px 0px 30px;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	width: 1200px;
+}
+#Kolizey {
+	background: url(img/Колізей1.jpg) no-repeat center top/cover;
+	height: 100vh;
+	padding: 5px;
+}
+.image1 {
+	width: 500px;
+	height: 300px;
+	margin-top: 250px;
+	margin-left: 0px;
+	border:groove;
+	border-radius: 15px;
+}
+.conteiner{
+	display: flex;
+	flex-direction:row ;
+
+}
+#Machu {
+	background: url(img/machupickchu1.jpg) no-repeat center top/cover;
+	height: 100vh;
+	padding: 5px;
+}
+.machu {
+	font-size: 140px;
+	text-align: center;
+	margin-top:0px;
+	margin-bottom: 0px;
+	font-family:Arial;
+	color: #ED0000;
+}
+.text5 {
+	margin: 40px 250px 0px 250px;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+}
+#Petra {
+	background: url(img/petra1.jpg) no-repeat center top/cover;
+	height: 100vh;
+	padding: 5px;
+}
+.petra {
+	font-size: 140px;
+	text-align: center;
+	margin-top:0px;
+	font-family:Arial;
+	color: #ED0000;
+}
+.text6 {
+	margin: 130px 250px 0px 250px;
+	font-size: 25px;
+	font-family: arial;
+	font-weight: bold;
+	color: yellow;
+}
+#Statue {
+	background: url(img/statue1.jpg) no-repeat center top/cover;
+	height: 100vh;
+	padding: 5px;
+}
+.statue {
+	font-size: 140px;
+	text-align: right;
+	margin-top:0px;
+	margin-bottom: 0px;
+	font-family:Arial;
+	color: #ED0000;
+}
+.text7 {
+	margin: 35px 20px 0px 980px;
+	font-size: 22px;
+	font-family: arial;
+	font-weight: bold;
+	color: #fff799;
+	line-height: 1.35em;
+}
+#Stina {
+	background: url(img/China2.jpg) no-repeat center top/cover;
+	height: 100vh;
+	padding: 5px;
+}
+.stina {
+	font-size: 140px;
+	text-align: center;
+	margin-top:0px;
+	font-family:Arial;
+	color: #ED0000;
+}
+.text8 {
+	margin: 300px 250px 0px 250px;
+	font-size: 23px;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	color:#fff;
+}
+#bottom {
+	padding-top: 3px;
+	height:80px;
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+.button {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #000;
+}
+.button1 {
+	color: #fff;
+}
